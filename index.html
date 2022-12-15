@@ -1,0 +1,84 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+
+          backgroundImage: {
+            "rasm1": "url('./1.jpg')",
+            "rasm2": "url('./1.png')"
+          }
+        }
+      }
+    }
+  </script>
+
+</head>
+
+<body>
+  <nav class="flex justify-center items-center  h-12  ">
+    <i class=" fa-solid fa-bars text-xl"></i>
+  </nav>
+  <div class=" h-full mt-2  bg-rasm1 bg-cover flex justify-center items-center flex-col">
+    <h5 class="text-xl mt-2 text-white">homemade recipes</h5>
+    <h1 class="text-3xl mt-2 text-white ">Bakery and Confectionery</h1>
+    <h5 class="text-xl mt-4 text-white">Image from Freepik</h5>
+    <button class="p-1 bg-orange-500 rounded-2xl w-32 h-12 mt-4 text-white">Read More</button>
+  </div>
+  <div class="bg-white flex flex-col items-center justify-center md:flex-col">
+    <h2 class="text-xl mt-5 ">what we do</h2>
+    <h1 class="text-3xl">Our Products</h1>
+    <div class="top_cards md:flex">
+      <img src="./bread.png" alt="">
+      <img src="./croasan.png" alt="">
+      <img src="./cakes.png" alt="">
+    </div>
+    <div class="bottom_cards md:flex">
+      <img src="./pechenki.png" alt="">
+      <img src="./ponchiki.png" alt="">
+      <img src="./cakes.png" alt="">
+    </div>
+    <button class="w-32 h-12 bg-yellow-500 text-white rounded-2xl mt-5 mb-5">Read More</button>
+  </div>
+  <div class="w-full bg-slate-400 md:flex items-center justify-center md:h-full">
+    <div class="flex flex-col justify-center pl-8">
+      <span class="text-xl text-white mb-2 mt-4">about company</span>
+      <h1 class="text-3xl text-white">Creating the best-tasting</h1>
+      <h1 class="text-3xl text-white">bread and desserts</h1>
+      <p class="mt-5 text-white text-lg">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+      <p class="text-white text-lg">nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</p>
+      <p class="text-white text-lg">reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
+      <p class="text-white text-lg">pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+      <button class="w-32 h-12 bg-yellow-500 rounded-2xl text-white mt-6">Read More</button>
+    </div>
+    <div class="flex items-center justify-center ">
+      <img class="md:w-96" src="./1.png" width="290px" alt="">
+    </div>
+  </div>
+  <div class="w-full bg-yellow-500 h-52 flex flex-col items-center justify-center">
+    <h1 class="text-3xl text-white md:text-4xl">40% discount after 8.00 pm!</h1>
+    <button class="w-40 h-12 bg-white rounded-3xl mt-6">CONTACT US</button>
+  </div>
+  <div class="w-full bg-white h-72 flex flex-col items-center justify-center">
+    <h1 class="text-2xl mt-4 md:text-4xl">Our Bread</h1>
+    <p class="text-xl mt-4 md:text-2xl">Ut enim ad minim veniam, quis nostrud </p>
+    <p class="text-xl md:text-2xl">exercitation ullamco laboris nisi ut aliquip ex</p>
+    <p class="text-xl md:text-2xl">Duis aute irure dolor in reprehenderit in voluptate </p>
+    <p class="text-xl md:text-2xl">velit esse cillum dolore eu fugiat nulla</p>
+    <p class="text-xl mb-4 md:text-2xl">pariatur. Excepteur sint  non proident.</p>
+  </div>
+</body>
+<script src="./js.js"></script>
+
+</html>
